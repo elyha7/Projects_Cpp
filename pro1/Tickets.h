@@ -33,7 +33,7 @@ public:
     TimeTicket(int SerialN, int WTime, int InTime);
     int getLeftTime(int CurrTime) const;
     void getInfo(ostream &os);
-    int TryToCome();
+    int TryToCome(int CURRENTTIME);
 };
 
 #endif // TICKETS_H_INCLUDED
